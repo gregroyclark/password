@@ -1,6 +1,9 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-var characters = ["A","a","B","b","C","c","D","d","E","e","F","f","G","g","H","h","I","h","J","j","K","k","L","l","M","m","N","n","O","o","P","p","Q","q","R","r","S","s","T","t","U","u","V","v","W","w","X","x","Y","y","Z","z","0","1","2","3","4","5","6","7","8","9",".","!"];
+var num = ["0","1","2","3","4","5","6","7","8","9"];
+var up = ["A","B","C","D","E","F","G","H","I","J","K","L","M","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+var low = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+var sym = [".","?","!","*","-",];
 
 // Write password to the #password input
 function writePassword() {
