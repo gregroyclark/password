@@ -10,13 +10,15 @@ var length;
 function writePassword() {
   var password = generatePassword();
 
-  
+
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
 };
 
 // Add event listener to generate button
 document.generateBtn.addEventListener("click", writePassword());
+
+
 
 for (var i = 0; i = length.value; i++){
 
