@@ -14,3 +14,20 @@
 ## lowercase (a-z)
 ## integer (0-9)
 ## symbol (".","?","!","@","#","$","-",)
+
+# methods
+## mathRandom
+## mathFloor
+## 
+## 
+
+# conditions 
+## 
+## 
+## 
+## 
+
+# languages
+## HTML
+## CSS
+## JavaScript
