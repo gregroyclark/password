@@ -8,3 +8,9 @@
 ## prompt integer bool
 ## promps symbol bool
 ## print new password
+
+# variables
+## uppercase (A-Z)
+## lowercase (a-z)
+## integer (0-9)
+## symbol (".","?","!","@","#","$","-",)
