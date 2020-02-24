@@ -1,8 +1,9 @@
-# password
-
-# choose password length (8-128)
-# choose types of characters (Upper & lowercase letters, numbers, symbols)
-# 
+# password generator
 
 # pseudocode
-## 
+## click generate button
+## prompt choose length (between 8-128 characters)
+## prompt uppercase bool
+## prompt lowercase bool
+## prompt integer bool
+## promps symbol bool
