@@ -7,3 +7,4 @@
 ## prompt lowercase bool
 ## prompt integer bool
 ## promps symbol bool
+## print new password
