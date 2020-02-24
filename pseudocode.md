@@ -24,8 +24,3 @@
 ## 
 ## 
 ## 
-
-# languages
-## HTML
-## CSS
-## JavaScript
