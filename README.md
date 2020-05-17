@@ -1,9 +1,5 @@
 # password generator
 
-# Contributors
-## Theresa Eatherly
-## Charlenne Alexander
-
 # languages
 ## HTML
 ## CSS
@@ -11,4 +7,4 @@
 
 # Links
 ## https://github.com/gregroyclark/password
-## Won't publish correctly?
+
