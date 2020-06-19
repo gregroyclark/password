@@ -6,12 +6,6 @@ var number;
 var symbol;
 var length;
 
-function writePassword() {
-  var password = generatePassword();
-    var passwordText = document.querySelector("#password");
-    passwordText.value = password;
-  };
-
   //password criteria
   function generatePassword() {
     var pswdLength = prompt("Choose a password length between 8-128 characters.");
@@ -59,5 +53,13 @@ function writePassword() {
         passwordGen.push(specialValue[i]);
       }
     }
+  }
 
-  };
+  function writePassword() {
+    var password = generatePassword();
+      var passwordText = document.querySelector("#password");
+      passwordText.value = password;
+    }
+
+  writePassword();
+  generatePassword();
