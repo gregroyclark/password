@@ -61,5 +61,5 @@ var length;
       passwordText.value = password;
     }
 
-  writePassword();
   generatePassword();
+  writePassword();
