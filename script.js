@@ -9,5 +9,10 @@ getRandomUpper = () => {
 };
 
 getRandomNumber = () => {
-  return String.fromCharCode(Math.floor(Math.random() * 26) + 48);
+  return String.fromCharCode(Math.floor(Math.random() * 10) + 48);
+};
+
+getRandomSpecial = () => {
+  const special = '!@#$%^&*=.'
+  return symbols[Math.floor(Math.random() * symbols.length)];
 };
