@@ -98,5 +98,6 @@ generatePassword = () => {
   }
 
   return result.join('');
-
 };
+
+const generateBtn = document.querySelector('#generate');
