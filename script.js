@@ -101,3 +101,10 @@ generatePassword = () => {
 };
 
 const generateBtn = document.querySelector('#generate');
+
+writePassword = () => {
+  const password = generatePassword();
+  const passwordText = document.querySelector('#password');
+
+  passwordText.value = password;
+};
