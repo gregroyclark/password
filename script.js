@@ -64,4 +64,39 @@ function getRandom(arr) {
   const randomElement = arr[randomIndex];
 
   return randomElement;
-}
+};
+
+generatePassword = () => {
+  const options = getPasswordOptions();
+
+  let result = [];
+  let possibleCharacters = [];
+  let guaranteedCharacters = [];
+
+  if (options.useSymbols) {
+    possibleCharacters = possibleCharacters.concat(symbol);
+    guaranteedCharacters.push(getRandom(symbol));
+  }
+
+  if (options.useNumbers) {
+    possibleCharacters = possibleCharacters.concat(number);
+    guaranteedCharacters.push(getRandom(number));
+  }
+
+  if (options.useUppercase) {
+    possibleCharacters = possibleCharacters.concat(useUppercase);
+    guaranteedCharacters.push(getRandom(upper));
+  }
+
+  if (options.useLowercase) {
+    possibleCharacters = possibleCharacters.concat(useLowercase);
+    guaranteedCharacters.push(getRandom(lower));
+  }
+
+  for (let i = 0; i < guaranteedCharacters.length; i++) {
+    result[i] = guaranteedCharacters[i];
+  }
+
+  return result.join('');
+
+};
